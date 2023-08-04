@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: beige;
+    background-image: url(/images/cover.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: beige;
+}
+
+.container {
+    background-color: rgba(99, 102, 106, .3);
+    border-radius: 2%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 45%;
+    margin-bottom: 50%;
+    height: 100vmin;
+    width: 100%;
+}
+
+.container img {
+    border-radius: 50%;
+    width: 50%;
+
+}
+
+
+.bot-nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 2rem;
+    background-color: rgba(99, 102, 106);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bot-nav a {
+    text-align: center;
+    text-decoration: none;
+    color: beige;
+}
+
+.bot-nav a:active {
+    text-align: center;
+    border-radius: 10%;
+    color: rgba(99, 102, 106);
+    background-color: beige;
+    
+}
