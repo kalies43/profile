@@ -6,16 +6,23 @@
 
 body {
     background-color: beige;
-    background-image: url(images/cover.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/images/cover.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     color: beige;
+    display: inline-flex;
 }
+
+
+.bg-img {
+    width: 100%;
+}
+
 
 .container {
     background-color: rgba(99, 102, 106, .3);
@@ -25,7 +32,7 @@ h1 {
     justify-items: center;
     margin-top: 45%;
     margin-bottom: 50%;
-    height: 100vmin;
+    height: 120vmin;
     width: 100%;
 }
 
